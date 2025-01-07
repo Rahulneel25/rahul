@@ -1,0 +1,67 @@
+DATA TYPES
+1)primitive-predefined , can store single values
+Numbers-integers , floats
+String-stream of char enclosed in quotes ,single double , backtick quotes
+Boolean-true or false
+Null-empty value or no value
+Undefined- declared  variable  with no value
+To check data type we use typeof(operator)
+
+2) Strings-single,double quote work same
+Backtick introduced
+
+
+
+ let a='rahul ';
+        let b='neel';
+        let age=20;
+        
+        console.log(`iam+${a+b}+${age}+year old`);
+        document.write(`Iam ${a+b} my age is ${age} year old`);
+
+ 
+conditional statements
+-to make set of inst exe only when condition is ture
+-block of code(conditional block):set of instructions It will execute if only specific condition is executed when specific condition is true
+Indentation:{--} 
+
+If:1 condition
+Elseif: multiple condition
+Else: 2 condition	
+
+
+
+
+2)non primitive-
+Objects and arrays 
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let a = null;
+        document.write(a);
+        document.write(typeof {a});
+
+
+        let a;
+        document.write(typeof{a});
+
+
+         let a='rahul ';
+        let b='neel';
+        let age=20;
+        document.write(`reactjs student=${a+b}`);
+        console.log(`reactjs student=${a+b}`);
+        document.write(`Iam ${a+b} my age is ${age} year old`);
+        
+        
+    </script>
+</body>
+</html>
